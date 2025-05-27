@@ -27,7 +27,6 @@ import javax.swing.table.DefaultTableModel;
  * @author faruq
  */
 public class mainView extends javax.swing.JFrame {
-    
     private void tambahObatKeTabel() {
     String id = txtField_ID_OBAT.getText().trim();
     String nama = jComboBox_Nama_Obat.getSelectedItem().toString();
@@ -43,16 +42,44 @@ public class mainView extends javax.swing.JFrame {
         return;
     }
 
-    DefaultTableModel model = (DefaultTableModel) jTable_Obat.getModel();
-    model.addRow(new Object[]{id, nama, status, jumlah, harga});
+    DefaultTableModel model_obat = (DefaultTableModel) jTable_Obat.getModel();
+    model_obat.addRow(new Object[]{id, nama, status, jumlah, harga});
+    }
+    
+    private void tambahRekeningKeTabel() {
+    String id = txtField_IdTransaksi.getText().trim();
+    String tanggal = txtField_TanggalTransaksi.getText().trim();
+    String total = txtField_TotalTransaksi.getText().trim();
+
+    if (id.isEmpty()) {
+        JOptionPane.showMessageDialog(this, "ID Rekening tidak boleh kosong!");
+        return;
     }
 
+    DefaultTableModel model_obat = (DefaultTableModel) jTable_Transaksi.getModel();
+    model_obat.addRow(new Object[]{id, tanggal,total });
+    }
+
+    private void cariTransaksiByID() {
+    String cariID = txtField_IdTransaksi.getText().trim();
+    DefaultTableModel model_caritransaksi = (DefaultTableModel) jTable_Transaksi.getModel();
+    
+    for (int i = 0; i < model_caritransaksi.getRowCount(); i++) {
+        if (model_caritransaksi.getValueAt(i, 0).toString().equalsIgnoreCase(cariID)) {
+            jTable_Transaksi.setRowSelectionInterval(i, i);
+            return;
+        }
+    }
+
+    JOptionPane.showMessageDialog(this, "ID Obat tidak ditemukan.");
+}
+    
     private void cariObatByID() {
     String cariID = txtField_ID_OBAT.getText().trim();
-    DefaultTableModel model = (DefaultTableModel) jTable_Obat.getModel();
+    DefaultTableModel model_cariobat = (DefaultTableModel) jTable_Obat.getModel();
     
-    for (int i = 0; i < model.getRowCount(); i++) {
-        if (model.getValueAt(i, 0).toString().equalsIgnoreCase(cariID)) {
+    for (int i = 0; i < model_cariobat.getRowCount(); i++) {
+        if (model_cariobat.getValueAt(i, 0).toString().equalsIgnoreCase(cariID)) {
             jTable_Obat.setRowSelectionInterval(i, i);
             return;
         }
@@ -81,7 +108,6 @@ private Map<String, Integer> hargaObat;
     private void toggleKetersediaan() {
     boolean tidakTersedia = jCheckBox_Tersedia_Obat.isSelected();
 
-    // Hanya nonaktifkan spinner dan field harga, bukan combobox
     jSpinner_BanyakObat.setEnabled(!tidakTersedia);
     jTextField_Harga_Obat.setEnabled(!tidakTersedia);
 
@@ -101,14 +127,35 @@ private Map<String, Integer> hargaObat;
         jButton_Cari_Obat.addActionListener(new ActionListener() {
         public void actionPerformed(ActionEvent evt) {
         String cariID = txtField_ID_OBAT.getText().trim();
-        DefaultTableModel model = (DefaultTableModel) jTable_Obat.getModel();
+        DefaultTableModel modelbutton_cariobat = (DefaultTableModel) jTable_Obat.getModel();
 
         boolean ditemukan = false;
 
-        for (int i = 0; i < model.getRowCount(); i++) {
-            if (model.getValueAt(i, 0).toString().equalsIgnoreCase(cariID)) {
+        for (int i = 0; i < modelbutton_cariobat.getRowCount(); i++) {
+            if (modelbutton_cariobat.getValueAt(i, 0).toString().equalsIgnoreCase(cariID)) {
                 jTable_Obat.setRowSelectionInterval(i, i); // pilih baris
                 jTable_Obat.scrollRectToVisible(jTable_Obat.getCellRect(i + 7, 0, true)); // scroll ke sana
+                ditemukan = true;
+                break;
+            }
+        }
+
+        if (!ditemukan) {
+            JOptionPane.showMessageDialog(null, "ID Obat tidak ditemukan.");
+        }
+    }
+});
+        jButton_Cari_Transaksi.addActionListener(new ActionListener() {
+        public void actionPerformed(ActionEvent evt) {
+        String cariID = txtField_IdTransaksi.getText().trim();
+        DefaultTableModel modelbutton_caritransaksi = (DefaultTableModel) jTable_Transaksi.getModel();
+
+        boolean ditemukan = false;
+
+        for (int i = 0; i < modelbutton_caritransaksi.getRowCount(); i++) {
+            if (modelbutton_caritransaksi.getValueAt(i, 0).toString().equalsIgnoreCase(cariID)) {
+                jTable_Transaksi.setRowSelectionInterval(i, i); // pilih baris
+                jTable_Transaksi.scrollRectToVisible(jTable_Transaksi.getCellRect(i + 7, 0, true)); // scroll ke sana
                 ditemukan = true;
                 break;
             }
@@ -1220,6 +1267,11 @@ private Map<String, Integer> hargaObat;
         jButton_Cari_Transaksi.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jButton_Cari_Transaksi.setText("Cari");
         jButton_Cari_Transaksi.setToolTipText("");
+        jButton_Cari_Transaksi.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton_Cari_TransaksiActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel20Layout = new javax.swing.GroupLayout(jPanel20);
         jPanel20.setLayout(jPanel20Layout);
@@ -1242,11 +1294,11 @@ private Map<String, Integer> hargaObat;
                         .addComponent(jButton_Cari_Transaksi, javax.swing.GroupLayout.PREFERRED_SIZE, 84, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel20Layout.createSequentialGroup()
                         .addComponent(btnTambah_Transaksi, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(btnHapus_Transaksi, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(btnKembali_Transaksi, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 1004, Short.MAX_VALUE)))
+                        .addGap(0, 998, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         jPanel20Layout.setVerticalGroup(
@@ -1275,10 +1327,7 @@ private Map<String, Integer> hargaObat;
 
         jTable_Transaksi.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null}
+
             },
             new String [] {
                 "ID Transaksi", "Tanggal Transaksi", "Total Transaksi"
@@ -1535,11 +1584,18 @@ private Map<String, Integer> hargaObat;
     }//GEN-LAST:event_btnKembali_ObatActionPerformed
 
     private void btnTambah_TransaksiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTambah_TransaksiActionPerformed
-        // TODO add your handling code here:
+        tambahRekeningKeTabel();
     }//GEN-LAST:event_btnTambah_TransaksiActionPerformed
 
     private void btnHapus_TransaksiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnHapus_TransaksiActionPerformed
-        // TODO add your handling code here:
+        int selectedRow = jTable_Transaksi.getSelectedRow();
+
+        if (selectedRow != -1) {
+            DefaultTableModel modelhapustransaksi = (DefaultTableModel) jTable_Transaksi.getModel();
+            modelhapustransaksi.removeRow(selectedRow);
+        } else {
+            JOptionPane.showMessageDialog(null, "Pilih baris yang ingin dihapus!");
+        }
     }//GEN-LAST:event_btnHapus_TransaksiActionPerformed
 
     private void btnKembali_TransaksiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnKembali_TransaksiActionPerformed
@@ -1601,12 +1657,16 @@ jCheckBox_Tersedia_Obat.addActionListener(e -> toggleKetersediaan());
         int selectedRow = jTable_Obat.getSelectedRow();
 
         if (selectedRow != -1) {
-            DefaultTableModel model = (DefaultTableModel) jTable_Obat.getModel();
-            model.removeRow(selectedRow);
+            DefaultTableModel modelhapusobat = (DefaultTableModel) jTable_Obat.getModel();
+            modelhapusobat.removeRow(selectedRow);
         } else {
             JOptionPane.showMessageDialog(null, "Pilih baris yang ingin dihapus!");
         }
     }//GEN-LAST:event_btnHapus_ObatActionPerformed
+
+    private void jButton_Cari_TransaksiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton_Cari_TransaksiActionPerformed
+        jButton_Cari_Transaksi.addActionListener(e -> cariTransaksiByID());
+    }//GEN-LAST:event_jButton_Cari_TransaksiActionPerformed
 
     /**
      * @param args the command line arguments
