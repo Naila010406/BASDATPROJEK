@@ -276,8 +276,6 @@
                 </Constraint>
               </Constraints>
             </Component>
-<<<<<<< HEAD
-=======
             <Component class="javax.swing.JLabel" name="jLabel3">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
@@ -294,7 +292,6 @@
                 </Constraint>
               </Constraints>
             </Component>
->>>>>>> origin/arkh
           </SubComponents>
         </Container>
         <Container class="javax.swing.JPanel" name="mainPanel">
@@ -329,11 +326,7 @@
                               <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
                               <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
                           </Group>
-<<<<<<< HEAD
-                          <EmptySpace pref="3988" max="32767" attributes="0"/>
-=======
                           <EmptySpace pref="1122" max="32767" attributes="0"/>
->>>>>>> origin/arkh
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -545,11 +538,7 @@
                                                   <Component id="btnKembali" min="-2" pref="166" max="-2" attributes="0"/>
                                               </Group>
                                           </Group>
-<<<<<<< HEAD
-                                          <EmptySpace min="0" pref="3850" max="32767" attributes="0"/>
-=======
                                           <EmptySpace min="0" pref="984" max="32767" attributes="0"/>
->>>>>>> origin/arkh
                                       </Group>
                                   </Group>
                                   <EmptySpace max="-2" attributes="0"/>
@@ -886,11 +875,7 @@
                                   </Group>
                               </Group>
                           </Group>
-<<<<<<< HEAD
-                          <EmptySpace pref="3283" max="32767" attributes="0"/>
-=======
                           <EmptySpace pref="417" max="32767" attributes="0"/>
->>>>>>> origin/arkh
                       </Group>
                       <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
@@ -912,21 +897,13 @@
                           </Group>
                           <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
                           <Component id="jPanel8" min="-2" max="-2" attributes="0"/>
-<<<<<<< HEAD
-                          <EmptySpace min="0" pref="326" max="32767" attributes="0"/>
-=======
                           <EmptySpace min="0" pref="322" max="32767" attributes="0"/>
->>>>>>> origin/arkh
                       </Group>
                       <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
                               <Component id="jPanel5" min="-2" max="-2" attributes="0"/>
-<<<<<<< HEAD
                               <EmptySpace pref="19" max="32767" attributes="0"/>
-=======
-                              <EmptySpace pref="18" max="32767" attributes="0"/>
->>>>>>> origin/arkh
                           </Group>
                       </Group>
                   </Group>
@@ -1028,11 +1005,7 @@
                                           <Component id="jButton5" min="-2" pref="113" max="-2" attributes="0"/>
                                           <EmptySpace type="separate" max="-2" attributes="0"/>
                                           <Component id="jButton4" min="-2" pref="113" max="-2" attributes="0"/>
-<<<<<<< HEAD
-                                          <EmptySpace min="0" pref="3861" max="32767" attributes="0"/>
-=======
                                           <EmptySpace min="0" pref="978" max="32767" attributes="0"/>
->>>>>>> origin/arkh
                                       </Group>
                                   </Group>
                                   <EmptySpace max="-2" attributes="0"/>
@@ -1237,16 +1210,6 @@
               </SubComponents>
             </Container>
             <Container class="javax.swing.JPanel" name="rekamMedisPanel">
-<<<<<<< HEAD
-              <Properties>
-                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
-                  <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
-                    <BevelBorder/>
-                  </Border>
-                </Property>
-              </Properties>
-=======
->>>>>>> origin/arkh
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
                   <CardConstraints cardName="card5"/>
@@ -1258,44 +1221,23 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
-<<<<<<< HEAD
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" attributes="0">
-                                  <Component id="NamelLabel7RekamMedis" min="-2" pref="239" max="-2" attributes="0"/>
-                                  <EmptySpace min="0" pref="4167" max="32767" attributes="0"/>
-                              </Group>
-                              <Component id="NamelPanel9RekamMedis" max="32767" attributes="0"/>
-                          </Group>
-=======
                           <Component id="jLabel7" min="-2" pref="204" max="-2" attributes="0"/>
                           <EmptySpace pref="1340" max="32767" attributes="0"/>
->>>>>>> origin/arkh
                       </Group>
                   </Group>
                 </DimensionLayout>
                 <DimensionLayout dim="1">
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
-<<<<<<< HEAD
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="NamelLabel7RekamMedis" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="NamelPanel9RekamMedis" max="32767" attributes="0"/>
-=======
                           <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
                           <Component id="jLabel7" min="-2" pref="80" max="-2" attributes="0"/>
                           <EmptySpace pref="754" max="32767" attributes="0"/>
->>>>>>> origin/arkh
                       </Group>
                   </Group>
                 </DimensionLayout>
               </Layout>
               <SubComponents>
-<<<<<<< HEAD
-                <Component class="javax.swing.JLabel" name="NamelLabel7RekamMedis">
-=======
                 <Component class="javax.swing.JLabel" name="jLabel7">
->>>>>>> origin/arkh
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -1307,251 +1249,6 @@
                     <Property name="iconTextGap" type="int" value="10"/>
                   </Properties>
                 </Component>
-<<<<<<< HEAD
-                <Container class="javax.swing.JPanel" name="NamelPanel9RekamMedis">
-                  <Properties>
-                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                      <Color blue="99" green="99" red="0" type="rgb"/>
-                    </Property>
-                  </Properties>
-
-                  <Layout>
-                    <DimensionLayout dim="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" attributes="0">
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="Namelanel10" max="32767" attributes="0"/>
-                                  <Component id="jScrollPane2" max="32767" attributes="0"/>
-                              </Group>
-                              <EmptySpace max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
-                    </DimensionLayout>
-                    <DimensionLayout dim="1">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="Namelanel10" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jScrollPane2" pref="602" max="32767" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
-                    </DimensionLayout>
-                  </Layout>
-                  <SubComponents>
-                    <Container class="javax.swing.JPanel" name="Namelanel10">
-                      <Properties>
-                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
-                          <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
-                            <BevelBorder/>
-                          </Border>
-                        </Property>
-                        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="ff" green="ff" red="ff" type="rgb"/>
-                        </Property>
-                      </Properties>
-
-                      <Layout>
-                        <DimensionLayout dim="0">
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" attributes="0">
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Group type="102" attributes="0">
-                                          <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="idRekamMedisRekamMeidis" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="tanggalRekamMedis" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="diagnosaRekamMedis" alignment="0" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="IDRekamMedisTextFieldRekamMedis" max="32767" attributes="0"/>
-                                              <Component id="tanggalTextFieldRekamMedis" max="32767" attributes="0"/>
-                                              <Component id="TextFieldDiagnosaRekamMedis" max="32767" attributes="0"/>
-                                          </Group>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="btnCariRekamMedis" min="-2" max="-2" attributes="0"/>
-                                      </Group>
-                                      <Group type="102" alignment="0" attributes="0">
-                                          <Component id="btnTAMBAHRekamMedis" min="-2" pref="166" max="-2" attributes="0"/>
-                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                          <Component id="btnHAPUSRekamMedis" min="-2" pref="166" max="-2" attributes="0"/>
-                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                          <Component id="btNKEMBALIRekamMedis" min="-2" pref="166" max="-2" attributes="0"/>
-                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                                      </Group>
-                                  </Group>
-                                  <EmptySpace max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                        </DimensionLayout>
-                        <DimensionLayout dim="1">
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="idRekamMedisRekamMeidis" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="IDRekamMedisTextFieldRekamMedis" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
-                                      <Component id="btnCariRekamMedis" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="tanggalTextFieldRekamMedis" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
-                                      <Component id="tanggalRekamMedis" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace min="-2" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="diagnosaRekamMedis" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
-                                      <Component id="TextFieldDiagnosaRekamMedis" alignment="3" min="-2" pref="37" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="btnTAMBAHRekamMedis" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
-                                      <Component id="btnHAPUSRekamMedis" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
-                                      <Component id="btNKEMBALIRekamMedis" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace max="32767" attributes="0"/>
-                              </Group>
-                          </Group>
-                        </DimensionLayout>
-                      </Layout>
-                      <SubComponents>
-                        <Component class="javax.swing.JLabel" name="idRekamMedisRekamMeidis">
-                          <Properties>
-                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Bodoni MT" size="18" style="1"/>
-                            </Property>
-                            <Property name="text" type="java.lang.String" value="ID Rekam Medis"/>
-                          </Properties>
-                        </Component>
-                        <Component class="javax.swing.JLabel" name="tanggalRekamMedis">
-                          <Properties>
-                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Bodoni MT" size="18" style="1"/>
-                            </Property>
-                            <Property name="text" type="java.lang.String" value="Tanggal"/>
-                          </Properties>
-                        </Component>
-                        <Component class="javax.swing.JLabel" name="diagnosaRekamMedis">
-                          <Properties>
-                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Bodoni MT" size="18" style="1"/>
-                            </Property>
-                            <Property name="text" type="java.lang.String" value="Diagnosa"/>
-                          </Properties>
-                        </Component>
-                        <Component class="javax.swing.JTextField" name="tanggalTextFieldRekamMedis">
-                          <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tanggalTextFieldRekamMedisActionPerformed"/>
-                          </Events>
-                        </Component>
-                        <Component class="javax.swing.JTextField" name="TextFieldDiagnosaRekamMedis">
-                          <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TextFieldDiagnosaRekamMedisActionPerformed"/>
-                          </Events>
-                        </Component>
-                        <Component class="javax.swing.JTextField" name="IDRekamMedisTextFieldRekamMedis">
-                          <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="IDRekamMedisTextFieldRekamMedisActionPerformed"/>
-                          </Events>
-                        </Component>
-                        <Component class="javax.swing.JButton" name="btnCariRekamMedis">
-                          <Properties>
-                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Segoe UI" size="14" style="1"/>
-                            </Property>
-                            <Property name="text" type="java.lang.String" value="cari"/>
-                          </Properties>
-                          <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCariRekamMedisActionPerformed"/>
-                          </Events>
-                        </Component>
-                        <Component class="javax.swing.JButton" name="btnTAMBAHRekamMedis">
-                          <Properties>
-                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Segoe UI" size="12" style="1"/>
-                            </Property>
-                            <Property name="text" type="java.lang.String" value="TAMBAH"/>
-                          </Properties>
-                          <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnTAMBAHRekamMedisActionPerformed"/>
-                          </Events>
-                        </Component>
-                        <Component class="javax.swing.JButton" name="btnHAPUSRekamMedis">
-                          <Properties>
-                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Segoe UI" size="12" style="1"/>
-                            </Property>
-                            <Property name="text" type="java.lang.String" value="HAPUS"/>
-                          </Properties>
-                          <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnHAPUSRekamMedisActionPerformed"/>
-                          </Events>
-                        </Component>
-                        <Component class="javax.swing.JButton" name="btNKEMBALIRekamMedis">
-                          <Properties>
-                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Segoe UI" size="12" style="1"/>
-                            </Property>
-                            <Property name="text" type="java.lang.String" value="KEMBALI"/>
-                          </Properties>
-                          <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btNKEMBALIRekamMedisActionPerformed"/>
-                          </Events>
-                        </Component>
-                      </SubComponents>
-                    </Container>
-                    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
-                      <AuxValues>
-                        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
-                      </AuxValues>
-
-                      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
-                      <SubComponents>
-                        <Component class="javax.swing.JTable" name="tableRekamMedis">
-                          <Properties>
-                            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
-                              <Table columnCount="3" rowCount="0">
-                                <Column editable="true" title="ID Rekam Medis" type="java.lang.Object"/>
-                                <Column editable="true" title="Tanggal" type="java.lang.Object"/>
-                                <Column editable="true" title="Diagnosa" type="java.lang.Object"/>
-                              </Table>
-                            </Property>
-                            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
-                              <TableColumnModel selectionModel="0">
-                                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
-                                  <Title/>
-                                  <Editor/>
-                                  <Renderer/>
-                                </Column>
-                                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
-                                  <Title/>
-                                  <Editor/>
-                                  <Renderer/>
-                                </Column>
-                                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
-                                  <Title/>
-                                  <Editor/>
-                                  <Renderer/>
-                                </Column>
-                              </TableColumnModel>
-                            </Property>
-                            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
-                              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
-                            </Property>
-                          </Properties>
-                          <AuxValues>
-                            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="4"/>
-                          </AuxValues>
-                        </Component>
-                      </SubComponents>
-                    </Container>
-                  </SubComponents>
-                </Container>
-=======
->>>>>>> origin/arkh
               </SubComponents>
             </Container>
             <Container class="javax.swing.JPanel" name="obatPanel">
@@ -1566,41 +1263,25 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
-<<<<<<< HEAD
-                          <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace pref="4214" max="32767" attributes="0"/>
-                      </Group>
-=======
                           <Component id="ArkhanJpanel8" min="-2" max="-2" attributes="0"/>
                           <EmptySpace pref="1256" max="32767" attributes="0"/>
                       </Group>
                       <Component id="jPanel_IJOIJO_OBAT" alignment="0" max="32767" attributes="0"/>
->>>>>>> origin/arkh
                   </Group>
                 </DimensionLayout>
                 <DimensionLayout dim="1">
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
-<<<<<<< HEAD
-                          <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
-                          <Component id="jLabel8" min="-2" pref="80" max="-2" attributes="0"/>
-                          <EmptySpace pref="754" max="32767" attributes="0"/>
-=======
                           <Component id="ArkhanJpanel8" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="jPanel_IJOIJO_OBAT" max="32767" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
->>>>>>> origin/arkh
                       </Group>
                   </Group>
                 </DimensionLayout>
               </Layout>
               <SubComponents>
-<<<<<<< HEAD
-                <Component class="javax.swing.JLabel" name="jLabel8">
-=======
                 <Component class="javax.swing.JLabel" name="ArkhanJpanel8">
->>>>>>> origin/arkh
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -1611,13 +1292,6 @@
                     <Property name="text" type="java.lang.String" value="Inventaris Obat"/>
                     <Property name="iconTextGap" type="int" value="10"/>
                   </Properties>
-<<<<<<< HEAD
-                </Component>
-=======
-                  <AuxValues>
-                    <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
-                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
-                  </AuxValues>
                 </Component>
                 <Container class="javax.swing.JPanel" name="jPanel_IJOIJO_OBAT">
                   <Properties>
@@ -1625,10 +1299,6 @@
                       <Color blue="99" green="99" red="0" type="rgb"/>
                     </Property>
                   </Properties>
-                  <AuxValues>
-                    <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
-                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
-                  </AuxValues>
 
                   <Layout>
                     <DimensionLayout dim="0">
@@ -1687,10 +1357,6 @@
                               </Border>
                             </Property>
                           </Properties>
-                          <AuxValues>
-                            <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
-                            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
-                          </AuxValues>
 
                           <Layout>
                             <DimensionLayout dim="0">
@@ -1704,7 +1370,7 @@
                                               <Component id="btnHapus_Obat" min="-2" pref="166" max="-2" attributes="0"/>
                                               <EmptySpace max="-2" attributes="0"/>
                                               <Component id="btnKembali_Obat" min="-2" pref="166" max="-2" attributes="0"/>
-                                              <EmptySpace min="0" pref="1006" max="32767" attributes="0"/>
+                                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                                           </Group>
                                           <Group type="102" alignment="0" attributes="0">
                                               <Group type="103" groupAlignment="0" attributes="0">
@@ -1771,8 +1437,8 @@
                                       <EmptySpace pref="40" max="32767" attributes="0"/>
                                       <Group type="103" groupAlignment="3" attributes="0">
                                           <Component id="btnTambah_Obat" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
-                                          <Component id="btnKembali_Obat" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
                                           <Component id="btnHapus_Obat" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
+                                          <Component id="btnKembali_Obat" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
                                       </Group>
                                       <EmptySpace max="-2" attributes="0"/>
                                   </Group>
@@ -1787,10 +1453,6 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="ID Obat"/>
                               </Properties>
-                              <AuxValues>
-                                <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
-                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
-                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JLabel" name="jLabel_Nama_Obat">
                               <Properties>
@@ -1799,15 +1461,8 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Nama Obat"/>
                               </Properties>
-                              <AuxValues>
-                                <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
-                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
-                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JTextField" name="txtField_ID_OBAT">
-                              <Events>
-                                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtField_ID_OBATActionPerformed"/>
-                              </Events>
                             </Component>
                             <Component class="javax.swing.JLabel" name="jLabel_Ketersediaan_Obat">
                               <Properties>
@@ -1816,10 +1471,6 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Ketersediaan"/>
                               </Properties>
-                              <AuxValues>
-                                <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
-                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
-                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JLabel" name="jLabel_Banyak_Obat">
                               <Properties>
@@ -1828,10 +1479,6 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Banyak Obat"/>
                               </Properties>
-                              <AuxValues>
-                                <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
-                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
-                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JButton" name="jButton_Cari_Obat">
                               <Properties>
@@ -1841,9 +1488,6 @@
                                 <Property name="text" type="java.lang.String" value="Cari"/>
                                 <Property name="toolTipText" type="java.lang.String" value=""/>
                               </Properties>
-                              <Events>
-                                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton_Cari_ObatActionPerformed"/>
-                              </Events>
                             </Component>
                             <Component class="javax.swing.JButton" name="btnTambah_Obat">
                               <Properties>
@@ -1854,6 +1498,17 @@
                               </Properties>
                               <Events>
                                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnTambah_ObatActionPerformed"/>
+                              </Events>
+                            </Component>
+                            <Component class="javax.swing.JButton" name="btnHapus_Obat">
+                              <Properties>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Segoe UI" size="12" style="1"/>
+                                </Property>
+                                <Property name="text" type="java.lang.String" value="HAPUS"/>
+                              </Properties>
+                              <Events>
+                                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnHapus_ObatActionPerformed"/>
                               </Events>
                             </Component>
                             <Component class="javax.swing.JButton" name="btnKembali_Obat">
@@ -1880,12 +1535,8 @@
                                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                   <Font name="Bodoni MT" size="18" style="1"/>
                                 </Property>
-                                <Property name="text" type="java.lang.String" value="Harga Total Obat"/>
+                                <Property name="text" type="java.lang.String" value="Harga Obat"/>
                               </Properties>
-                              <AuxValues>
-                                <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
-                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
-                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JTextField" name="jTextField_Harga_Obat">
                               <Properties>
@@ -1896,15 +1547,22 @@
                               </Events>
                             </Component>
                             <Component class="javax.swing.JSpinner" name="jSpinner_BanyakObat">
-                              <AuxValues>
-                                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="JSpinner spinner = new JSpinner();&#xa;&#xa;// Ambil editor dan komponennya&#xa;JComponent editor = spinner.getEditor();&#xa;JFormattedTextField tf = ((JSpinner.DefaultEditor) editor).getTextField();&#xa;&#xa;// Ambil parent dari text field&#xa;Container parent = tf.getParent();&#xa;parent.setLayout(new BorderLayout());&#xa;&#xa;// Ambil tombol spinner&#xa;Component[] comps = parent.getComponents();&#xa;for (Component c : comps) {&#xa;    if (c instanceof JButton) {&#xa;        parent.remove(c); // Hapus dari kanan&#xa;        parent.add(c, BorderLayout.WEST); // Tambahkan ke kiri&#xa;    }&#xa;}"/>
-                                <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new JSpinner()"/>
-                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JComboBox" name="jComboBox_Nama_Obat">
                               <Properties>
                                 <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-                                  <StringArray count="0"/>
+                                  <StringArray count="10">
+                                    <StringItem index="0" value="Paracetamol"/>
+                                    <StringItem index="1" value="OBH (Obat Batuk Hitam)"/>
+                                    <StringItem index="2" value="Antasida"/>
+                                    <StringItem index="3" value="Amoxicillin"/>
+                                    <StringItem index="4" value="Loperamide"/>
+                                    <StringItem index="5" value="CTM (Chlorpheniramine)"/>
+                                    <StringItem index="6" value="Loratadine"/>
+                                    <StringItem index="7" value="Betadine"/>
+                                    <StringItem index="8" value="Metformin"/>
+                                    <StringItem index="9" value="Vitamin C / Suplemen"/>
+                                  </StringArray>
                                 </Property>
                               </Properties>
                               <Events>
@@ -1913,18 +1571,6 @@
                               <AuxValues>
                                 <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
                               </AuxValues>
-                            </Component>
-                            <Component class="javax.swing.JButton" name="btnHapus_Obat">
-                              <Properties>
-                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                                  <Font name="Segoe UI" size="12" style="1"/>
-                                </Property>
-                                <Property name="text" type="java.lang.String" value="Hapus"/>
-                                <Property name="actionCommand" type="java.lang.String" value="HAPUS"/>
-                              </Properties>
-                              <Events>
-                                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnHapus_ObatActionPerformed"/>
-                              </Events>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -2006,7 +1652,6 @@
                     </Container>
                   </SubComponents>
                 </Container>
->>>>>>> origin/arkh
               </SubComponents>
             </Container>
             <Container class="javax.swing.JPanel" name="transaksiPanel">
@@ -2021,10 +1666,6 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
-<<<<<<< HEAD
-                          <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace pref="4211" max="32767" attributes="0"/>
-=======
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Component id="jPanel_Transaksi" max="32767" attributes="0"/>
                               <Group type="102" attributes="0">
@@ -2033,33 +1674,22 @@
                               </Group>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
->>>>>>> origin/arkh
                       </Group>
                   </Group>
                 </DimensionLayout>
                 <DimensionLayout dim="1">
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
-<<<<<<< HEAD
-                          <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
-                          <Component id="jLabel9" min="-2" pref="80" max="-2" attributes="0"/>
-                          <EmptySpace pref="754" max="32767" attributes="0"/>
-=======
                           <Component id="arkhan_jLabel9" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="jPanel_Transaksi" max="32767" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
->>>>>>> origin/arkh
                       </Group>
                   </Group>
                 </DimensionLayout>
               </Layout>
               <SubComponents>
-<<<<<<< HEAD
-                <Component class="javax.swing.JLabel" name="jLabel9">
-=======
                 <Component class="javax.swing.JLabel" name="arkhan_jLabel9">
->>>>>>> origin/arkh
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -2071,18 +1701,12 @@
                     <Property name="iconTextGap" type="int" value="10"/>
                   </Properties>
                 </Component>
-<<<<<<< HEAD
-=======
                 <Container class="javax.swing.JPanel" name="jPanel_Transaksi">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="99" green="99" red="0" type="rgb"/>
                     </Property>
                   </Properties>
-                  <AuxValues>
-                    <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
-                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
-                  </AuxValues>
 
                   <Layout>
                     <DimensionLayout dim="0">
@@ -2111,10 +1735,6 @@
                   </Layout>
                   <SubComponents>
                     <Container class="javax.swing.JPanel" name="jPanel20">
-                      <AuxValues>
-                        <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
-                        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
-                      </AuxValues>
 
                       <Layout>
                         <DimensionLayout dim="0">
@@ -2135,15 +1755,15 @@
                                               <Component id="txtField_TanggalTransaksi" alignment="1" max="32767" attributes="0"/>
                                           </Group>
                                           <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="jButton_Cari_Transaksi" min="-2" pref="84" max="-2" attributes="0"/>
+                                          <Component id="jButton_Cari_Obat1" min="-2" pref="84" max="-2" attributes="0"/>
                                       </Group>
                                       <Group type="102" attributes="0">
                                           <Component id="btnTambah_Transaksi" min="-2" pref="166" max="-2" attributes="0"/>
-                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
                                           <Component id="btnHapus_Transaksi" min="-2" pref="166" max="-2" attributes="0"/>
                                           <EmptySpace max="-2" attributes="0"/>
                                           <Component id="btnKembali_Transaksi" min="-2" pref="166" max="-2" attributes="0"/>
-                                          <EmptySpace min="0" pref="998" max="32767" attributes="0"/>
+                                          <EmptySpace min="0" pref="1004" max="32767" attributes="0"/>
                                       </Group>
                                   </Group>
                                   <EmptySpace max="-2" attributes="0"/>
@@ -2157,7 +1777,7 @@
                                   <Group type="103" groupAlignment="3" attributes="0">
                                       <Component id="jLabel_idTransaksi" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="txtField_IdTransaksi" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jButton_Cari_Transaksi" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jButton_Cari_Obat1" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="3" attributes="0">
@@ -2242,7 +1862,7 @@
                             <Property name="text" type="java.lang.String" value="Total Transaksi"/>
                           </Properties>
                         </Component>
-                        <Component class="javax.swing.JButton" name="jButton_Cari_Transaksi">
+                        <Component class="javax.swing.JButton" name="jButton_Cari_Obat1">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Segoe UI" size="12" style="1"/>
@@ -2250,9 +1870,6 @@
                             <Property name="text" type="java.lang.String" value="Cari"/>
                             <Property name="toolTipText" type="java.lang.String" value=""/>
                           </Properties>
-                          <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton_Cari_TransaksiActionPerformed"/>
-                          </Events>
                         </Component>
                         <Component class="javax.swing.JTextField" name="txtField_TotalTransaksi">
                         </Component>
@@ -2283,7 +1900,7 @@
                             <Component class="javax.swing.JTable" name="jTable_Transaksi">
                               <Properties>
                                 <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
-                                  <Table columnCount="3" rowCount="0">
+                                  <Table columnCount="3" rowCount="4">
                                     <Column editable="true" title="ID Transaksi" type="java.lang.Object"/>
                                     <Column editable="true" title="Tanggal Transaksi" type="java.lang.Object"/>
                                     <Column editable="true" title="Total Transaksi" type="java.lang.Object"/>
@@ -2319,7 +1936,6 @@
                     </Container>
                   </SubComponents>
                 </Container>
->>>>>>> origin/arkh
               </SubComponents>
             </Container>
             <Container class="javax.swing.JPanel" name="ruanganPanel">
@@ -2332,59 +1948,25 @@
               <Layout>
                 <DimensionLayout dim="0">
                   <Group type="103" groupAlignment="0" attributes="0">
-<<<<<<< HEAD
-                      <Group type="102" attributes="0">
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Component id="namelLabel10ManagementRuangan" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                              </Group>
-                              <Group type="102" attributes="0">
-                                  <Component id="NamelPanel9ManagementRuangan" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="214" max="-2" attributes="0"/>
-                                  <Component id="ManagementRuangan" max="32767" attributes="0"/>
-                              </Group>
-                          </Group>
-=======
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
                           <EmptySpace pref="1130" max="32767" attributes="0"/>
->>>>>>> origin/arkh
                       </Group>
                   </Group>
                 </DimensionLayout>
                 <DimensionLayout dim="1">
-<<<<<<< HEAD
-                  <Group type="103" groupAlignment="1" attributes="0">
-                      <Group type="102" attributes="0">
-                          <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
-                          <Component id="ManagementRuangan" max="32767" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="1" attributes="0">
-                          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-                          <Component id="namelLabel10ManagementRuangan" min="-2" pref="37" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="NamelPanel9ManagementRuangan" max="32767" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-=======
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
                           <Component id="jLabel10" min="-2" pref="80" max="-2" attributes="0"/>
                           <EmptySpace pref="754" max="32767" attributes="0"/>
->>>>>>> origin/arkh
                       </Group>
                   </Group>
                 </DimensionLayout>
               </Layout>
               <SubComponents>
-<<<<<<< HEAD
-                <Component class="javax.swing.JLabel" name="namelLabel10ManagementRuangan">
-=======
                 <Component class="javax.swing.JLabel" name="jLabel10">
->>>>>>> origin/arkh
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -2396,386 +1978,6 @@
                     <Property name="iconTextGap" type="int" value="10"/>
                   </Properties>
                 </Component>
-<<<<<<< HEAD
-                <Container class="javax.swing.JPanel" name="ManagementRuangan">
-
-                  <Layout>
-                    <DimensionLayout dim="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jPanel9" alignment="0" max="32767" attributes="0"/>
-                      </Group>
-                    </DimensionLayout>
-                    <DimensionLayout dim="1">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jPanel9" alignment="0" max="32767" attributes="0"/>
-                      </Group>
-                    </DimensionLayout>
-                  </Layout>
-                  <SubComponents>
-                    <Container class="javax.swing.JPanel" name="jPanel9">
-
-                      <Layout>
-                        <DimensionLayout dim="0">
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <EmptySpace min="0" pref="3208" max="32767" attributes="0"/>
-                          </Group>
-                        </DimensionLayout>
-                        <DimensionLayout dim="1">
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <EmptySpace min="0" pref="804" max="32767" attributes="0"/>
-                          </Group>
-                        </DimensionLayout>
-                      </Layout>
-                    </Container>
-                  </SubComponents>
-                </Container>
-                <Container class="javax.swing.JPanel" name="NamelPanel9ManagementRuangan">
-                  <Properties>
-                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                      <Color blue="99" green="99" red="0" type="rgb"/>
-                    </Property>
-                  </Properties>
-
-                  <Layout>
-                    <DimensionLayout dim="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jScrollPane4" max="32767" attributes="0"/>
-                                  <Component id="Namelpanel11ManajementRuangan" max="32767" attributes="0"/>
-                              </Group>
-                              <EmptySpace max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
-                    </DimensionLayout>
-                    <DimensionLayout dim="1">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="Namelpanel11ManajementRuangan" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jScrollPane4" max="32767" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
-                    </DimensionLayout>
-                  </Layout>
-                  <SubComponents>
-                    <Container class="javax.swing.JPanel" name="Namelpanel11ManajementRuangan">
-
-                      <Layout>
-                        <DimensionLayout dim="0">
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Group type="102" alignment="0" attributes="0">
-                                          <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="idRuanganjlabelManagementRuangan" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="tipeRuanganManajementRuangan" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="hargaRuanganManagementRuangan" alignment="0" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="0" attributes="0">
-                                              <Group type="102" attributes="0">
-                                                  <Group type="103" groupAlignment="0" attributes="0">
-                                                      <Component id="idRuanganManagementRuangan" max="32767" attributes="0"/>
-                                                      <Group type="102" attributes="0">
-                                                          <Component id="tfHargaRuanganManagementRuangan" min="-2" pref="108" max="-2" attributes="0"/>
-                                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                                                      </Group>
-                                                  </Group>
-                                                  <EmptySpace max="-2" attributes="0"/>
-                                                  <Component id="btnCariManagementRuangan" min="-2" max="-2" attributes="0"/>
-                                              </Group>
-                                              <Group type="102" attributes="0">
-                                                  <Component id="jComboBoxTipeRuanganManagementRUangan" min="-2" pref="78" max="-2" attributes="0"/>
-                                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                                              </Group>
-                                          </Group>
-                                      </Group>
-                                      <Group type="102" alignment="0" attributes="0">
-                                          <Component id="btnTAMBAHManagementRuangan" min="-2" pref="166" max="-2" attributes="0"/>
-                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                          <Component id="btnHAPUSManagementRuangan" min="-2" pref="166" max="-2" attributes="0"/>
-                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                          <Component id="btNKEMBALIManagementRUangan" min="-2" pref="166" max="-2" attributes="0"/>
-                                          <EmptySpace min="0" pref="436" max="32767" attributes="0"/>
-                                      </Group>
-                                  </Group>
-                                  <EmptySpace max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                        </DimensionLayout>
-                        <DimensionLayout dim="1">
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="idRuanganjlabelManagementRuangan" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="idRuanganManagementRuangan" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
-                                      <Component id="btnCariManagementRuangan" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="tipeRuanganManajementRuangan" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jComboBoxTipeRuanganManagementRUangan" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="hargaRuanganManagementRuangan" min="-2" pref="29" max="-2" attributes="0"/>
-                                      <Component id="tfHargaRuanganManagementRuangan" min="-2" pref="31" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="btnTAMBAHManagementRuangan" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
-                                      <Component id="btnHAPUSManagementRuangan" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
-                                      <Component id="btNKEMBALIManagementRUangan" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace pref="16" max="32767" attributes="0"/>
-                              </Group>
-                          </Group>
-                        </DimensionLayout>
-                      </Layout>
-                      <SubComponents>
-                        <Component class="javax.swing.JLabel" name="idRuanganjlabelManagementRuangan">
-                          <Properties>
-                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Bodoni MT" size="18" style="1"/>
-                            </Property>
-                            <Property name="text" type="java.lang.String" value="ID Ruangan"/>
-                          </Properties>
-                        </Component>
-                        <Component class="javax.swing.JLabel" name="tipeRuanganManajementRuangan">
-                          <Properties>
-                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Bodoni MT" size="18" style="1"/>
-                            </Property>
-                            <Property name="text" type="java.lang.String" value="Tipe Ruangan"/>
-                          </Properties>
-                        </Component>
-                        <Component class="javax.swing.JLabel" name="hargaRuanganManagementRuangan">
-                          <Properties>
-                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Bodoni MT" size="18" style="1"/>
-                            </Property>
-                            <Property name="text" type="java.lang.String" value="Harga Ruangan"/>
-                          </Properties>
-                        </Component>
-                        <Component class="javax.swing.JTextField" name="tfHargaRuanganManagementRuangan">
-                          <Properties>
-                            <Property name="editable" type="boolean" value="false"/>
-                          </Properties>
-                          <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tfHargaRuanganManagementRuanganActionPerformed"/>
-                          </Events>
-                        </Component>
-                        <Component class="javax.swing.JTextField" name="idRuanganManagementRuangan">
-                          <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="idRuanganManagementRuanganActionPerformed"/>
-                          </Events>
-                        </Component>
-                        <Component class="javax.swing.JButton" name="btnCariManagementRuangan">
-                          <Properties>
-                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Segoe UI" size="14" style="1"/>
-                            </Property>
-                            <Property name="text" type="java.lang.String" value="cari"/>
-                          </Properties>
-                          <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCariManagementRuanganActionPerformed"/>
-                          </Events>
-                        </Component>
-                        <Component class="javax.swing.JButton" name="btnTAMBAHManagementRuangan">
-                          <Properties>
-                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Segoe UI" size="12" style="1"/>
-                            </Property>
-                            <Property name="text" type="java.lang.String" value="TAMBAH"/>
-                          </Properties>
-                          <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnTAMBAHManagementRuanganActionPerformed"/>
-                          </Events>
-                        </Component>
-                        <Component class="javax.swing.JButton" name="btnHAPUSManagementRuangan">
-                          <Properties>
-                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Segoe UI" size="12" style="1"/>
-                            </Property>
-                            <Property name="text" type="java.lang.String" value="HAPUS"/>
-                          </Properties>
-                          <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnHAPUSManagementRuanganActionPerformed"/>
-                          </Events>
-                        </Component>
-                        <Component class="javax.swing.JButton" name="btNKEMBALIManagementRUangan">
-                          <Properties>
-                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Segoe UI" size="12" style="1"/>
-                            </Property>
-                            <Property name="text" type="java.lang.String" value="KEMBALI"/>
-                          </Properties>
-                          <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btNKEMBALIManagementRUanganActionPerformed"/>
-                          </Events>
-                        </Component>
-                        <Component class="javax.swing.JComboBox" name="jComboBoxTipeRuanganManagementRUangan">
-                          <Properties>
-                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Segoe UI" size="12" style="1"/>
-                            </Property>
-                            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-                              <StringArray count="3">
-                                <StringItem index="0" value="UMUM"/>
-                                <StringItem index="1" value="REGULER"/>
-                                <StringItem index="2" value="VIP"/>
-                              </StringArray>
-                            </Property>
-                          </Properties>
-                          <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBoxTipeRuanganManagementRUanganActionPerformed"/>
-                          </Events>
-                          <AuxValues>
-                            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
-                          </AuxValues>
-                        </Component>
-                      </SubComponents>
-                    </Container>
-                    <Container class="javax.swing.JScrollPane" name="jScrollPane4">
-                      <AuxValues>
-                        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
-                      </AuxValues>
-
-                      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
-                      <SubComponents>
-                        <Component class="javax.swing.JTable" name="tableManagementRuangan">
-                          <Properties>
-                            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
-                              <Table columnCount="3" rowCount="0">
-                                <Column editable="true" title="ID Ruangan" type="java.lang.Object"/>
-                                <Column editable="true" title="Tipe Ruangan" type="java.lang.Object"/>
-                                <Column editable="true" title="Harga Ruangan" type="java.lang.Object"/>
-                              </Table>
-                            </Property>
-                            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
-                              <TableColumnModel selectionModel="0">
-                                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
-                                  <Title/>
-                                  <Editor/>
-                                  <Renderer/>
-                                </Column>
-                                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
-                                  <Title/>
-                                  <Editor/>
-                                  <Renderer/>
-                                </Column>
-                                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
-                                  <Title/>
-                                  <Editor/>
-                                  <Renderer/>
-                                </Column>
-                              </TableColumnModel>
-                            </Property>
-                            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
-                              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
-                            </Property>
-                          </Properties>
-                          <AuxValues>
-                            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="4"/>
-                          </AuxValues>
-                        </Component>
-                      </SubComponents>
-                    </Container>
-                  </SubComponents>
-                </Container>
-              </SubComponents>
-            </Container>
-            <Component class="javax.swing.JLabel" name="jLabel3">
-              <Properties>
-                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Rockwell Condensed" size="12" style="1"/>
-                </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/assets/call.png"/>
-                </Property>
-                <Property name="text" type="java.lang.String" value="119"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
-                  <CardConstraints cardName="card9"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Container class="javax.swing.JPanel" name="dashboardPanel1">
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
-                  <CardConstraints cardName="cardDashboard"/>
-                </Constraint>
-              </Constraints>
-
-              <Layout>
-                <DimensionLayout dim="0">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" attributes="0">
-                                  <Component id="jLabelDashboard" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace pref="1074" max="32767" attributes="0"/>
-                              </Group>
-                              <Component id="jPanel10" max="32767" attributes="0"/>
-                          </Group>
-                      </Group>
-                  </Group>
-                </DimensionLayout>
-                <DimensionLayout dim="1">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="jLabelDashboard" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="jPanel10" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-                </DimensionLayout>
-              </Layout>
-              <SubComponents>
-                <Component class="javax.swing.JLabel" name="jLabelDashboard">
-                  <Properties>
-                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
-                    </Property>
-                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Rockwell Condensed" size="36" style="1"/>
-                    </Property>
-                    <Property name="text" type="java.lang.String" value="Dashboard"/>
-                    <Property name="iconTextGap" type="int" value="10"/>
-                  </Properties>
-                </Component>
-                <Container class="javax.swing.JPanel" name="jPanel10">
-                  <Properties>
-                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
-                    </Property>
-                  </Properties>
-
-                  <Layout>
-                    <DimensionLayout dim="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                      </Group>
-                    </DimensionLayout>
-                    <DimensionLayout dim="1">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <EmptySpace min="0" pref="1092" max="32767" attributes="0"/>
-                      </Group>
-                    </DimensionLayout>
-                  </Layout>
-                </Container>
-=======
->>>>>>> origin/arkh
               </SubComponents>
             </Container>
           </SubComponents>
